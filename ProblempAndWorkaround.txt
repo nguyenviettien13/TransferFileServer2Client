@@ -1,0 +1,5 @@
+﻿CreateThread đòi hỏi ta phải truyền vào một phương thức static.
+Trong khi phương thức static chỉ cho phép truy cập các static members, việc viết hàm rất khó khắn.
+Để giải quyết vấn đề này ta sử dụng một con trỏ đến chính đối tượng dưới dạng static.
+static Client* clientptr;
+static Server* serverptr;
